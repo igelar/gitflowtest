@@ -9,7 +9,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
+      "path": "node_modules/cz-customizable"
     }
   },
   "repository": {
@@ -25,6 +25,9 @@
   "homepage": "https://github.com/igelar/gitflowtest#readme",
   "devDependencies": {
     "commitizen": "^4.2.1",
-    "cz-conventional-changelog": "^3.3.0"
+    "commitlint-config-cz": "^0.13.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
+    "husky": "^4.2.5"
   }
 }
